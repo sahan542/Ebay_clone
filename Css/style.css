@@ -1,0 +1,78 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+ html{
+    font-size: 85%;
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background-color: white;
+ }
+ 
+ section{
+    max-width: 1200px;
+    margin:0 auto;
+ }
+ .header{
+    position: sticky;
+
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    background-color: whitesmoke;
+    height : 40px;
+
+ }
+ 
+ .header .flex{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height : 35px;
+    gap: 10px;
+
+ }
+ .header .flex .navbar{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height : 35px;
+    gap: 10px;
+
+ }
+ .header .flex .header2{
+    display: flex;
+    float: right;
+    height : 35px;
+    align-items: center;
+    gap: 10px;
+    padding-left: 48%;
+    background-color: whitesmoke;
+ }
+
+ .header .flex .header1{
+    display: flex;
+    float: right;
+    height : 35px;
+    align-items: center;
+    gap: 10px;
+    background-color: whitesmoke;
+ }
+
+
+ .header .flex{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height : 35px;
+    gap: 10px;
+
+ }
+.head2 .flex .header2_1{
+    background-color: aqua;
+}
